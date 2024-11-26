@@ -1,0 +1,38 @@
+{
+  "name": "lowdb",
+  "version": "7.0.1",
+  "description": "Simple to use local JSON database (supports Node, Electron and the browser)",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "local",
+    "storage",
+    "file",
+    "data"
+  ],
+  "author": "typicode <typicode@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typicode/lowdb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typicode/lowdb/issues"
+  },
+  "homepage": "https://github.com/typicode/lowdb#readme",
+  "dependencies": {
+    "steno": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "funding": "",
+  "exports": {
+    "./adapters/FileSync.js": "./adapters/FileSync.js"
+  }
+}
