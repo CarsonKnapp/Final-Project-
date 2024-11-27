@@ -158,4 +158,14 @@ router.post("/api/journal-signup", async (req, res) => {
   }
 })
 
+router.get("/api/testimonials", async (req, res) => {
+  try {
+    const subscribers = await database.getSubscribers()
+    res.json(subscribers)
+  } catch (error) {
+    console.error(error)
+    res.status(500).send("Internal Server Error")
+  }
+})
+
 export default router
