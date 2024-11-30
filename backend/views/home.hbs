@@ -3,7 +3,7 @@
   {{#each subscribers}}
     <div class="subscriber">
       <h2>{{this.fname}} {{this.lname}}</h2>
-      <p>Sex: {{this.sex}}</p>
+      
 
       <form method="post" action="/subscribers/favorite/{{this.id}}">
         {{#if this.isFavorite}}
