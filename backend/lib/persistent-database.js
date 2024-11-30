@@ -7,7 +7,6 @@ const initialData = {
       id: "b1245",
       fname: "Pierce",
       lname: "Brosnan",
-      sex: "Male",
       quote: "This is fantastic!",
       portrait_img:
         "https://m.media-amazon.com/images/M/MV5BMTMwMjMxNzM4OV5BMl5BanBnXkFtZTcwNDM5NzkxMw@@._V1_QL75_UY148_CR4,0,100,148_.jpg",
@@ -16,7 +15,6 @@ const initialData = {
       id: "c5431",
       fname: "Jennifer",
       lname: "Garner",
-      sex: "Female",
       quote: "The best thing since sliced bread!",
       portrait_img:
         "https://m.media-amazon.com/images/M/MV5BNTA4MDgzMTc1Nl5BMl5BanBnXkFtZTcwNjQyMjIwNQ@@._V1_QL75_UY148_CR7,0,100,148_.jpg",
@@ -25,7 +23,6 @@ const initialData = {
       id: "d6790",
       fname: "Harrison",
       lname: "Ford",
-      sex: "Male",
       quote: "I'm Han Solo!",
       portrait_img:
         "https://m.media-amazon.com/images/M/MV5BMTY4Mjg0NjIxOV5BMl5BanBnXkFtZTcwMTM2NTI3MQ@@._V1_QL75_UX100_CR0,1,100,148_.jpg",

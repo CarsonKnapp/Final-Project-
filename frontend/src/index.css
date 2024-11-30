@@ -2,3 +2,14 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.testimonial-card {
+    /* Your styles for the TestimonialCard component here */
+}
+
+.glow-button {
+    /* Your styles for the glow-button class here */
+}
+
+.hover\:glow-button-hover:hover {
+  font-size: 120%  /* Your styles for the hover state of glow-button class here */
+}
