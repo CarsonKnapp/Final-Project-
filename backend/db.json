@@ -24,6 +24,15 @@
       "portrait_img": "https://m.media-amazon.com/images/M/MV5BMTM0MTc0Njk2OF5BMl5BanBnXkFtZTcwMTIxMTAzNQ@@._V1_QL75_UY148_CR6,0,100,148_.jpg",
       "file": null,
       "id": "UoAr7"
+    },
+    {
+      "_csrf": "SCOU7B72-5sYuMx1cdxY5XkMLfmk6yrzlQ7c",
+      "fname": "Tom",
+      "lname": "Brady",
+      "quote": "im the goat",
+      "portrait_img": "https://m.media-amazon.com/images/M/MV5BMTc1NTUwNDUwNl5BMl5BanBnXkFtZTYwMzIxNzY0._V1_QL75_UY148_CR2,0,100,148_.jpg",
+      "file": null,
+      "id": "hJbqQ"
     }
   ]
 }
