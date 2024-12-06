@@ -2,20 +2,20 @@ import { nanoid } from "nanoid"
 const subscribers = [
   {
     id: "b1245",
-    fname: "Pierce",
-    lname: "Brosnan",
-    sex: "Male",
-  },
-  {
-    id: "c5431",
-    fname: "Jennifer",
-    lname: "Garner",
+    fname: "Tanya",
+    lname: "Sinclair",
     sex: "Female",
   },
   {
+    id: "c5431",
+    fname: "John",
+    lname: "Tarkpor",
+    sex: "Male",
+  },
+  {
     id: "d6790",
-    fname: "Harrison",
-    lname: "Ford",
+    fname: "Carson",
+    lname: "Knapp",
     sex: "Male",
   },
 ]
