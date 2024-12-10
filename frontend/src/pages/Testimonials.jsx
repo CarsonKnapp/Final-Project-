@@ -7,7 +7,7 @@ const Testimonials = () => {
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/testimonials")
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_HOST_API}/api/testimonials`)
         const data = await response.json()
         setTestimonials(data)
       } catch (err) {
