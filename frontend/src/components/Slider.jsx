@@ -25,11 +25,15 @@ const Slider = () => {
     const prevSlide = () => setCurrentIndex((currentIndex - 1 + testimonials.length) % testimonials.length);
 
     return (
-        <div className="slider">
-          {testimonials && testimonials.length > 0 && (
-              <><TestimonialCard testimonial={testimonials[currentIndex]} /><button onClick={prevSlide} aria-label="Previous" className="glow-button hover:glow-button-hover">◀</button><button onClick={nextSlide} aria-label="Next" className="glow-button hover:glow-button-hover">▶</button></>
-          )}
-        </div>
+      <div className="slider">
+        {testimonials && testimonials.length > 0 && (
+          <>
+          <TestimonialCard testimonial={testimonials[currentIndex]} />
+          <button onClick={prevSlide} aria-label="Previous" className="glow-button hover:glow-button-hover hover:scale-110">◀</button>
+          <button onClick={nextSlide} aria-label="Next" className="glow-button hover:glow-button-hover hover:scale-110">▶</button>
+          </>
+        )}
+      </div>
     );
 };
 

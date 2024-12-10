@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <nav className="bg-blue-800 p-4">
+        <nav className="bg-blue-800 p-4 fixed top-0 left-0 w-full">
             <ul className="flex space-x-4">
                 {/* Home Link */}
                 <li>
